@@ -21,13 +21,13 @@ export default function SongList () {
             return newer.year - older.year;
           }
         }).map((song, index) => {
-      <Song 
-      key={index}
-      artist={song.artist}
-      genre={song.genre}
-      name={song.name}
-      year={song.year}
-      />
+          <Song
+            key={index}
+            artist={song.artist}
+            genre={song.genre}
+            name={song.name}
+            year={song.year}
+          />
   })}
 
     </>
