@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import ReactDOM from 'react-dom/client';
-import MixtapeProvider from './Composants/mixtapeContext';
+import MixtapeProvider, { mixtapeContext } from './Composants/mixtapeContext';
 import SongList from './SongList'
 import { Controls } from './Controls';
 const songs = [
@@ -37,6 +37,7 @@ const songs = [
 ];
 
 function App() {
+ 
     return (
       <MixtapeProvider songs={songs}>
       <div className="app">

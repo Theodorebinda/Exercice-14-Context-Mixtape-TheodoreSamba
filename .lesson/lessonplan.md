@@ -1,4 +1,4 @@
-# Lesson plan
+<!-- # Lesson plan
   
   ** this file should contain teacher lesson plan details ** 
 
@@ -17,4 +17,4 @@ def hello_world():
   print("hello world!")
 ```
 
-  
+   -->

@@ -10,7 +10,7 @@ export const Song = ({ artist, genre, name, year }) => {
         </div>
         <aside className="details right">
           <p className="genre">{genre}</p>
-          <p className="year">{year}</p>
+          <p className="year">{year}</p> 
         </aside>
       </div>
     </li>
